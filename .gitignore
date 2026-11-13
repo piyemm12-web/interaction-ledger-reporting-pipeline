@@ -1,0 +1,27 @@
+# Generated data - do not commit
+data/
+data_large/
+
+# Database
+pipeline.db
+*.db
+
+# Reports
+reports/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Keys (never commit)
+pipeline/keys.env
+
